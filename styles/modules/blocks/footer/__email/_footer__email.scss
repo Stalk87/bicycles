@@ -1,0 +1,27 @@
+.footer__email {
+    background-color: var(--footerColor);
+    color: var(--textColor);
+    @include placeholder;
+    display: inline-block;
+    padding: 11px 0 11px 20px;
+    width: 100%;
+    border: 1px solid rgba(199, 199, 199, 0.5);
+    border-radius: 4px;
+    z-index: 1;
+}
+  
+.footer__email:hover {
+    @include hoveredPlaceholder;
+    cursor: pointer;
+}
+  
+.footer__email:focus-visible {
+    outline: 1px solid rgba(199, 199, 199, 0.5);
+    cursor: text;
+}
+
+@media screen and (max-width: $mobile) {
+    .footer__email {
+        box-sizing: border-box;
+    }
+}

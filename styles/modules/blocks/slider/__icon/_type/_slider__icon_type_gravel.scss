@@ -1,0 +1,18 @@
+.slider__icon_type_gravel {
+    top: 360px;
+    left: 16px;
+}
+
+@media screen and (max-width: 1280px) {
+    .slider__icon_type_gravel {
+        top: 64%;
+    }
+}
+  
+@media screen and (max-width: $mobile) {
+    .slider__icon_type_gravel {
+        top: 145px;
+        left: 11px;
+        width: 35px;
+    }
+}

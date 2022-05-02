@@ -1,0 +1,14 @@
+.first-screen__title {
+  @include title;
+  grid-area: title;
+  padding-top: 80px;
+  max-width: 460px;
+}
+
+@media screen and (max-width: $mobile) {
+  .first-screen__title {
+    @include titleMobile;
+    width: 100%;
+    padding-top: 40px;
+  }
+}

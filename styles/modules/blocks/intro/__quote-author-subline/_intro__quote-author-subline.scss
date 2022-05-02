@@ -1,0 +1,17 @@
+.intro__quote-author-subline {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    opacity: var(--normOpacity);
+    grid-area: subline;
+    margin: 6px 0 0 0;
+    color: var(--paragraphColor);
+}
+
+@media screen and (max-width: $mobile) {
+    .intro__quote-author-subline {
+        font-size: 10px;
+        line-height: 16px;
+        margin-top: 4px;
+    }
+}

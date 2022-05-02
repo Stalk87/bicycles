@@ -1,0 +1,28 @@
+.intro {
+    display: grid;
+    grid-template-areas: 
+    "photo quote"
+    "photo ."
+    "photo author"
+    "photo subline";
+    column-gap: 80px;
+    padding: 120px 0px 60px;
+    margin: 0 0 0 120px;
+    column-gap: 80px;
+}
+
+@media screen and (max-width: $tablet) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        margin: 0 36px 0;
+    }
+}
+  
+  @media screen and (max-width: $mobile) {
+    .intro {
+        margin: 40px 0 0;
+        padding: 20px 0 40px;
+        border-top: 1px solid $mobileBorder;
+    }
+}

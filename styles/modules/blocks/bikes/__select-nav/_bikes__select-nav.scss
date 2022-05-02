@@ -1,0 +1,14 @@
+.bikes__select-nav {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: var(--backgroundColor);
+  border: 1px solid $mobileBorder;
+  width: 114px;
+  box-sizing: border-box;
+  top: 30px;
+  left: 0;
+  border-top: none;
+  transition: all 0.3s ease-out;
+  z-index: 5;
+}

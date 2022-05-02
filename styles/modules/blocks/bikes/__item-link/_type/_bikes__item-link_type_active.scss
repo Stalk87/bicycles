@@ -1,0 +1,9 @@
+.bikes__item-link_type_active {
+    font-weight: 600;
+    color: var(--textColor);
+    opacity: 1;
+}
+
+.bikes__item-link_type_active:hover {
+    opacity: var(--maxOpacity);
+}

@@ -1,0 +1,67 @@
+$colorButton: #24b47e;
+$hoverColorButton: #319e75;
+$textColorButton: #fff;
+$cardbikeColor: #f4f4f4;
+$switcherDarkTheme: #545454;
+$mobileBorder: #e3e3e3;
+$dotsColor: #cacaca;
+
+$mobile: 768px;
+$tablet: 1160px;
+
+:root {
+    --backgroundColor: #f4f4f4;
+    --textColor: #151515;
+    --paragraphColor: #222;
+    --copyrightColor: #cfcfcf;
+    --sliderButton: #ebebeb;
+    --lineColor: #D7D4D4;
+    --footerColor: #efefef;
+    --minOpacity: .6;
+    --normOpacity: .7;
+    --maxOpacity: .75;
+    --sliderButtonPrevious: url("../../../images/previous-light.svg");
+    --sliderButtonNext: url("../../../images/next-light.svg");
+    --sun: url("../../../images/sun-light.svg");
+    --moon: url("../../../images/moon-light.svg");
+    --footerLogo: url("../images/footer-logo-light.svg");
+    --selectArrow: url("../images/select-arrow-light.svg");
+}
+
+html[data-theme='light'] {
+    --backgroundColor: #f4f4f4;
+    --textColor: #151515;
+    --paragraphColor: #222;
+    --copyrightColor: #cfcfcf;
+    --sliderButton: #ebebeb;
+    --lineColor: #D7D4D4;
+    --footerColor: #efefef;
+    --minOpacity: .6;
+    --normOpacity: .7;
+    --maxOpacity: .75;
+    --sliderButtonPrevious: url("../../../images/previous-light.svg");
+    --sliderButtonNext: url("../../../images/next-light.svg");
+    --sun: url("../../../images/sun-light.svg");
+    --moon: url("../../../images/moon-light.svg");
+    --footerLogo: url("../images/footer-logo-light.svg");
+    --selectArrow: url("../images/select-arrow-light.svg");
+}
+
+html[data-theme='dark'] {
+    --backgroundColor: #333;
+    --textColor: #fff;
+    --paragraphColor: #e6e6e6;
+    --copyrightColor: #565656;
+    --sliderButton: #434343;
+    --lineColor: #707070;
+    --footerColor: #2f2f2f;
+    --minOpacity: .5;
+    --normOpacity: .5;
+    --maxOpacity: .65;
+    --sliderButtonPrevious: url("../../../images/previous-dark.svg");
+    --sliderButtonNext: url("../../../images/next-dark.svg");
+    --sun: url("../../../images/sun-dark.svg");
+    --moon: url("../../../images/moon-dark.svg");
+    --footerLogo: url("../images/footer-logo-dark.svg");
+    --selectArrow: url("../images/select-arrow-dark.svg");
+}

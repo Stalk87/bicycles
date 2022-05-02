@@ -1,0 +1,21 @@
+.first-screen__container {
+    display: flex;
+    position: absolute;
+    min-height: 430px;
+    top: 347px;
+    left: 38.8%;
+}
+
+@media screen and (max-width: $tablet) {
+    .first-screen__container {
+        min-height: 600px;
+        left: 0;
+    }
+}
+  
+  @media screen and (max-width: $mobile) {
+    .first-screen__container {
+        min-height: 250px;
+        top: 385px;
+    }
+}

@@ -1,0 +1,7 @@
+.page {
+  @include mainFont;
+  max-width: 1440px;
+  min-width: 320px;
+  margin: auto;
+  background-color: var(--backgroundColor);
+}

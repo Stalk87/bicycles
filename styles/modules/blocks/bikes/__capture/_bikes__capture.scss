@@ -1,0 +1,16 @@
+.bikes__capture {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--textColor);
+    margin: 22px 0 0 0;
+}
+
+@media screen and (max-width: $tablet) {
+    .bikes__capture {
+        font-size: 14px;
+        line-height: 18px;
+        margin: 3px 0 16px;
+        align-self: center;
+    }
+}

@@ -1,0 +1,23 @@
+.bikes__select-mobile {
+    display: none;
+    position: relative;
+    width: 114px;
+    margin: 40px 0 20px;
+}
+  
+@media screen and (max-width: $mobile) {
+    .bikes__select-mobile {
+        display: block;
+    }
+}
+  
+.bikes__select-mobile[data-state="active"] {
+    .bikes__select-title {
+        &::after {
+            transform: rotate(180deg);
+        }
+    }
+    .bikes__select-nav {
+        display: flex;
+    }
+}

@@ -1,0 +1,13 @@
+.footer__email-submit {
+    display: none;
+    border: none;
+    color: var(--textColor);
+    background-color: var(--footerColor);
+    font-size: 13px;
+    line-height: 28px;
+    position: absolute;
+    top: 7px;
+    right: 11px;
+    z-index: 3;
+    cursor: pointer;
+}

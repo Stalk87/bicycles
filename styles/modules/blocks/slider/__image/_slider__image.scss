@@ -1,0 +1,26 @@
+.slider__image {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.slider__image:last-of-type {
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 1280px) {
+    .slider__image {
+        width: 50%;
+    }
+}
+  
+@media screen and (max-width: $mobile) {
+    .slider__image {
+        width: 100%;
+        margin: 0;
+    }
+  
+    .slider__image:last-of-type {
+        display: none;
+    }
+}
+  

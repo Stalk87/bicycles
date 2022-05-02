@@ -1,0 +1,95 @@
+@mixin mainFont {
+  color: var(--textColor);
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+}
+
+@mixin title {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 60px;
+  letter-spacing: -.5px;
+  margin: 0;
+}
+
+@mixin paragraph {
+  color: var(--paragraphColor);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  opacity: var(--normOpacity);
+  max-width: 460px;
+  margin: 50px 0;
+}
+
+@mixin titleMobile {
+  line-height: 40px;
+  font-size: 32px;
+}
+
+@mixin paragraphMobile {
+  margin: 40px 0;
+  font-size: 12px;
+  line-height: 18px;
+  width: 100%;
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    color: var(--textColor);
+    opacity: var(--normOpacity);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 28px;
+  }
+
+  &:-moz-placeholder {
+    color: var(--textColor);
+    opacity: var(--normOpacity);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 28px;
+  }
+
+  &::-moz-placeholder {
+    color: var(--textColor);
+    opacity: var(--normOpacity);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 28px;
+  }
+
+  &:-ms-input-placeholder {
+    color: var(--textColor);
+    opacity: var(--normOpacity);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 28px;
+  }
+}
+
+@mixin hoveredPlaceholder {
+  &::-webkit-input-placeholder {
+    color: var(--textColor);
+    transition: .3s;
+    opacity: 1;
+  }
+
+  &:-moz-placeholder {
+    color: var(--textColor);
+    transition: .3s;
+    opacity: 1;
+  }
+
+  &::-moz-placeholder {
+    color: var(--textColor);
+    transition: .3s;
+    opacity: 1;
+  }
+
+  &:-ms-input-placeholder {
+    color: var(--textColor);
+    transition: .3s;
+    opacity: 1;
+  }
+}

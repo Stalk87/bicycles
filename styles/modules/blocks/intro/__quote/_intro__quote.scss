@@ -1,0 +1,24 @@
+.intro__quote {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 44px;
+    letter-spacing: -.5px;
+    grid-area: quote;
+    max-width: 470px;
+    margin: 0;
+    color: var(--textColor);
+}
+
+@media screen and (max-width: $tablet) {
+    .intro__quote {
+        margin-top: 40px;
+    }
+}
+  
+  @media screen and (max-width: $mobile) {
+    .intro__quote {
+        font-size: 23px;
+        line-height: 29px;
+        letter-spacing: -.5px;
+    }
+}

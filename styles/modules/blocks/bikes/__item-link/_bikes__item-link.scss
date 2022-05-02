@@ -1,0 +1,16 @@
+.bikes__item-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+    opacity: var(--normOpacity);
+    color: var(--textColor);
+    cursor: pointer;
+}
+
+.bikes__item-link:hover {
+    opacity: var(--minOpacity);
+    transition: .3s;
+  }
+
+  

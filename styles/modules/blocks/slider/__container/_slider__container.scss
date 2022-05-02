@@ -1,0 +1,14 @@
+.slider__container {
+    grid-area: image;
+    display: flex;
+    width: 100%;
+    position: relative;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+@media screen and (max-width: $mobile) {
+    .slider__container {
+        margin-top: 40px;
+    }
+}

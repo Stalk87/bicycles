@@ -1,0 +1,18 @@
+.slider__icon {
+    position: absolute;
+    top: 344px;
+    left: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .slider__icon {
+        top: 60%;
+    }
+}
+  
+@media screen and (max-width: $mobile) {
+    .slider__icon {
+        top: 133px;
+        width: 70px;
+    }
+}

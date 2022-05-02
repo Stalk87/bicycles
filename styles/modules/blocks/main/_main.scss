@@ -1,0 +1,10 @@
+.main {
+  display: block;
+  margin-top: 74px;
+}
+
+@media screen and (max-width: $mobile) {
+  .main {
+    margin: 0 18px 0;
+  }
+}

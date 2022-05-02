@@ -1,0 +1,21 @@
+.intro__quote-author {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    grid-area: author;
+    margin: 0;
+    color: var(--textColor);
+}
+
+@media screen and (max-width: $tablet) {
+    .intro__quote-author {
+        margin-top: 40px;
+    }
+}
+  
+  @media screen and (max-width: $mobile) {
+    .intro__quote-author {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

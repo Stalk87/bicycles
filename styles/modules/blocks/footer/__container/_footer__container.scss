@@ -1,0 +1,11 @@
+.footer__container {
+    min-width: 360px;
+}
+
+@media screen and (max-width: $mobile) {
+    .footer__container {
+        margin: 55px 18px 25px;
+        min-width: auto;
+        width: 100%;
+    }
+}

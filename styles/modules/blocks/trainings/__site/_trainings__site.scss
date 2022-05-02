@@ -1,0 +1,20 @@
+.trainings__site {
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+.trainings__site:first-of-type {
+    margin-right: 30px;
+}
+
+.trainings__site:hover {
+    opacity: var(--maxOpacity);
+    transition: .3s;
+}
+
+@media screen and (max-width: $mobile) {
+    .trainings__site {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
