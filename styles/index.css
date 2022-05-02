@@ -380,10 +380,10 @@ template {
   --minOpacity: .6;
   --normOpacity: .7;
   --maxOpacity: .75;
-  --sliderButtonPrevious: url("../../../images/previous-light.svg");
-  --sliderButtonNext: url("../../../images/next-light.svg");
-  --sun: url("../../../images/sun-light.svg");
-  --moon: url("../../../images/moon-light.svg");
+  --sliderButtonPrevious: url("../images/previous-light.svg");
+  --sliderButtonNext: url("../images/next-light.svg");
+  --sun: url("../images/sun-light.svg");
+  --moon: url("../images/moon-light.svg");
   --footerLogo: url("../images/footer-logo-light.svg");
   --selectArrow: url("../images/select-arrow-light.svg");
 }
@@ -399,10 +399,10 @@ html[data-theme='light'] {
   --minOpacity: .6;
   --normOpacity: .7;
   --maxOpacity: .75;
-  --sliderButtonPrevious: url("../../../images/previous-light.svg");
-  --sliderButtonNext: url("../../../images/next-light.svg");
-  --sun: url("../../../images/sun-light.svg");
-  --moon: url("../../../images/moon-light.svg");
+  --sliderButtonPrevious: url("../images/previous-light.svg");
+  --sliderButtonNext: url("../images/next-light.svg");
+  --sun: url("../images/sun-light.svg");
+  --moon: url("../images/moon-light.svg");
   --footerLogo: url("../images/footer-logo-light.svg");
   --selectArrow: url("../images/select-arrow-light.svg");
 }
@@ -418,10 +418,10 @@ html[data-theme='dark'] {
   --minOpacity: .5;
   --normOpacity: .5;
   --maxOpacity: .65;
-  --sliderButtonPrevious: url("../../../images/previous-dark.svg");
-  --sliderButtonNext: url("../../../images/next-dark.svg");
-  --sun: url("../../../images/sun-dark.svg");
-  --moon: url("../../../images/moon-dark.svg");
+  --sliderButtonPrevious: url("../images/previous-dark.svg");
+  --sliderButtonNext: url("../images/next-dark.svg");
+  --sun: url("../images/sun-dark.svg");
+  --moon: url("../images/moon-dark.svg");
   --footerLogo: url("../images/footer-logo-dark.svg");
   --selectArrow: url("../images/select-arrow-dark.svg");
 }
@@ -773,7 +773,7 @@ html[data-theme='dark'] {
 }
 
 .first-screen__bike-fix {
-  background-image: url("../../../../../images/cannondale_systemsix_himod.png");
+  background-image: url("../images/cannondale_systemsix_himod.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 340px 260px;
