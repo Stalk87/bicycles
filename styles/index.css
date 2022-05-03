@@ -800,7 +800,7 @@ html[data-theme='dark'] {
   display: grid;
   grid-template-areas: "photo quote" "photo ." "photo author" "photo subline";
   column-gap: 80px;
-  padding: 120px 0px 60px;
+  padding: 120px 0px 0px;
   margin: 0 0 0 120px;
   column-gap: 80px;
 }
@@ -893,7 +893,7 @@ html[data-theme='dark'] {
 
 .slider {
   padding-left: 60px;
-  padding-top: 60px;
+  padding-top: 120px;
   position: relative;
   margin: 0 0 0 120px;
 }
@@ -912,11 +912,15 @@ html[data-theme='dark'] {
   }
 }
 
+.anchor {
+  position: absolute;
+  top: -35px;
+  left: 0;
+}
+
 @media screen and (max-width: 768px) {
-  .mobile-anchor {
-    position: absolute;
-    top: -70px;
-    left: 0;
+  .anchor {
+    top: -50px;
   }
 }
 
@@ -1413,7 +1417,7 @@ html[data-theme='dark'] {
   column-gap: 13%;
   grid-template-areas: "title image" "paragraph image" ". image" "links image";
   margin: 0 120px;
-  padding-top: 150px;
+  padding-top: 120px;
   padding-bottom: 120px;
   grid-template-rows: 60px repeat(3, auto);
   grid-template-columns: minmax(min-content, max-content);

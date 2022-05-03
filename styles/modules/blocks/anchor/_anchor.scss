@@ -1,0 +1,11 @@
+.anchor {
+        position: absolute;
+        top: -35px;
+        left: 0;
+}
+
+@media screen and (max-width: $mobile) {
+    .anchor {
+        top: -50px;
+    }
+}
