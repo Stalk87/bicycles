@@ -1290,7 +1290,7 @@ html[data-theme='dark'] {
   left: 0;
   border-top: none;
   transition: all 0.3s ease-out;
-  z-index: 5;
+  z-index: 6;
 }
 
 .bikes__select-label {
@@ -1304,7 +1304,7 @@ html[data-theme='dark'] {
   cursor: pointer;
 }
 
-bikes__select-item {
+.bikes__select-item {
   display: none;
 }
 
@@ -1341,6 +1341,7 @@ bikes__select-item {
   .bikes__gallery-item_mobile_visible {
     display: flex;
     margin: 0 18px 0;
+    filter: drop-shadow(0px 20px 140px rgba(0, 0, 0, 0.06));
   }
 }
 
@@ -1375,6 +1376,35 @@ bikes__select-item {
     margin: 3px 0 16px;
     align-self: center;
   }
+}
+
+.bikes__slider-dots {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .bikes__slider-dots {
+    display: flex;
+    margin-top: 20px;
+  }
+}
+
+.bikes__slider-dot {
+  border-radius: 50%;
+  background-color: #cacaca;
+  margin-right: 5px;
+  width: 4px;
+  height: 4px;
+}
+
+.bikes__slider-dot:last-of-type {
+  margin-right: 0;
+}
+
+.bikes__slider-dot_type_active {
+  background-color: var(--textColor);
 }
 
 .trainings {
