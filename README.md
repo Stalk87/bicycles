@@ -11,4 +11,4 @@ https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings_external-lin
 HTML5, CSS3, SCSS, JavaScript, БЭМ
 
 Ссылка на сайт:
-[https://stalk87.github.io/bicycles/](https://stalk87.github.io/bicycling/?utm_source=google&utm_medium=banner&utm_content=link#slider)
+[https://stalk87.github.io/bicycling/](https://stalk87.github.io/bicycling/?utm_source=google&utm_medium=banner&utm_content=link#slider)
